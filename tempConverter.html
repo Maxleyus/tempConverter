@@ -1,0 +1,69 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp Converter</title>
+    <link rel="stylesheet" href="./tempConverter.css">
+</head>
+
+<body>
+    <h1>Temperature Conversion</h1>
+    <div id="h2">
+        <h2>Celcius</h2><button id="flip" onclick="">></button>
+        <h2>Fahrenheit</h2>
+    </div>
+    <div class="blocks" id="cBlock">
+        <input type="number" id="celcius" id="tempInput">
+        <button onclick="celciusToFahrenheit()" class="button" id="C-F">convert</button>
+        <br>
+        <output id="cResult" id="result"></output>
+    </div>
+    <h2>Fahrenheit to Celcius</h2>
+    <div class="blocks" id="fBlock">
+        <input type="number" id="fahrenheit">
+        <button onclick="fahrenheitToCelcius()" class="button" id="F-C">convert</button>
+        <br>
+        <output id="fResult"></output>
+    </div>
+    <script src="./tempConverter.js"></script>
+</body>
+
+</html> -->
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp Converter</title>
+    <link rel="stylesheet" href="./tempConverter.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Temperature Conversion</h1>
+        <div id="h2">
+            <h2 id="first">Celcius</h2><button id="swap" onclick="tempSwap()">></button>
+            <h2 id="second">Fahrenheit</h2>
+        </div>
+        <div class="calculator">
+            <input type="number" id="tempInput">
+            <button onclick="convert()" class="button" id="convert">convert</button>
+            <br>
+            <output id="tempResult"></output>
+        </div>
+    </div>
+    <script src="./tempConverter.js"></script>
+</body>
+
+</html>
